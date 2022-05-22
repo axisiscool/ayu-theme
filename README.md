@@ -14,7 +14,7 @@ This theme is **only** for [Powercord](https://powercord.dev) users. BetterDisco
 $ git clone https://github.com/axisiscool/ayu-theme
 ```
 
-### Use Quick CSS editor
+### Using the Quick CSS editor
 
 Go to the "Quick CSS" menu in "Themes," then paste:
 
