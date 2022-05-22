@@ -1,0 +1,106 @@
+@import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
+
+.theme-dark {
+  --accent-color: #58a5f2;
+  --background-1: #242936;
+  --background-2: #1a1f29;
+  --background-mentioned: #22c5fd10;
+  --background-mentioned-hover: #bde6fb15;
+
+  --brand-experiment: var(--accent-color);
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --tab-selected: var(--background-1);
+}
+
+:root {
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-2);
+  --background-secondary-alt: var(--background-2);
+  --background-tertiary: var(--background-2);
+  --background-accent: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --button-accent: var(--accent-color);
+
+  --channeltextarea-background: var(--background-tertiary);
+
+  --deprecated-text-input-bg: var(--background-secondary);
+  --deprecated-text-input-border-disabled: var(--background-secondary);
+
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--text-muted);
+
+  --text-brand: var(--brand-experiment);
+}
+
+/* Sourced and modified from https://github.com/schnensch0/zelk/blob/main/zelk.css */
+
+.container-ZMc96U.themed-Hp1KC_,
+.container-1-ERn5 {
+  /* Workaround since var(--background-secondary) didn't work */
+  background-color: #1a1f29 !important;
+}
+
+.scroller-35tvpe,
+.root-22AK9z,
+.container-ZMc96U {
+  background-color: var(--background-secondary) !important;
+}
+
+.tabBody-2dgbAs,
+.chat-2ZfjoI,
+.container-1NXEtd,
+.container-1oAagU,
+.privateChannels-oVe7HL,
+.homeWrapperNormal-bu1BS6 {
+  background-color: var(--background-tertiary);
+}
+
+.peopleColumn-1wMU14,
+.chatContent-3KubbW:not(.container-3XgAHv *),
+.pageWrapper-2PwDoS,
+.scroller-29cQFV,
+.stageSection-3mAD8V {
+  background-color: var(--background-primary) !important;
+}
+
+.container-ZMc96U .topPill-3DJJNV .item-3XjbnG:last-child {
+  background-color: var(--button-accent) !important;
+  color: var(--interactive-selected) !important;
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8,
+.item-1BCeuB:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.colorDefault-CDqZdO:active {
+  background-color: var(--background-modifier-active) !important;
+}
+
+.theme-dark .autocomplete-3l_oCd,
+.theme-dark .autocomplete-3NRXG8,
+.theme-light .autocomplete-3l_oCd,
+.theme-light .autocomplete-3NRXG8 {
+  background-color: var(--background-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-1);
+}
+
+.autocomplete-3NRXG8 .selected-3B2w1z,
+.embedFull-1HGV2S {
+  background-color: var(--background-tertiary);
+}
+
+.contentWrapper-3vHNP2,
+.wrapper-1NNaWG,
+.inspector-DFKXwB,
+.bd-emote-header,
+.emojiPicker-6YCk8a {
+  background-color: var(--background-tertiary);
+}

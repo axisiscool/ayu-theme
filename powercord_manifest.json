@@ -1,0 +1,8 @@
+{
+  "name": "Ayu Theme",
+  "description": "A lightweight and beautiful theme based off of the Ayu Mirage color scheme.",
+  "version": "1.0.0",
+  "author": "Axis#1010",
+  "theme": "theme.css",
+  "license": "Apache-2.0"
+}
