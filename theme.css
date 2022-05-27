@@ -107,7 +107,10 @@
   background-color: var(--background-tertiary);
 }
 
-.expandedFolderBackground-1cujaW,
+.expandedFolderBackground-1cujaW {
+  background-color: var(--background-primary);
+}
+
 .expandedFolderIconWrapper-3RwQpD {
   background-color: var(--background-primary);
 }
