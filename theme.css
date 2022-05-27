@@ -106,3 +106,8 @@
 .emojiPicker-6YCk8a {
   background-color: var(--background-tertiary);
 }
+
+.expandedFolderBackground-1cujaW,
+.expandedFolderIconWrapper-3RwQpD {
+  background-color: var(--background-primary);
+}
