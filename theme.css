@@ -69,6 +69,7 @@
 .chatContent-3KubbW:not(.container-3XgAHv *),
 .pageWrapper-2PwDoS,
 .scroller-29cQFV,
+.scroller-2M3eAB,
 .stageSection-3mAD8V {
   background-color: var(--background-primary) !important;
 }
@@ -107,10 +108,24 @@
   background-color: var(--background-tertiary);
 }
 
-.expandedFolderBackground-1cujaW {
+.expandedFolderBackground-1cujaW,
+.expandedFolderBackground-1kSAf6 {
   background-color: var(--background-primary);
 }
 
 .expandedFolderIconWrapper-3RwQpD {
   background-color: var(--background-primary);
+}
+
+.select-1Ia3hD {
+  background-color: var(--background-secondary) !important;
+}
+
+.breadcrumbsWrapper--2LhnQ {
+  background-color: var(--background-primary);
+}
+
+.bottomDivider-ZmTm-j,
+.footer-31IekZ {
+  background-color: var(--background-secondary);
 }
